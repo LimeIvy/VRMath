@@ -1,0 +1,134 @@
+{
+    "name": "InputActionLR",
+    "maps": [
+        {
+            "name": "Test",
+            "id": "8efc6446-f46e-47c0-af71-79b9159850c3",
+            "actions": [
+                {
+                    "name": "PrimaryButtonR",
+                    "type": "Button",
+                    "id": "4987230e-f90b-4478-95f4-030bbcaf9c6f",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "PrimaryButtonL",
+                    "type": "Button",
+                    "id": "5a566057-ddf1-4977-b777-36b0fcb9bf24",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "SecondaryButtonR",
+                    "type": "Button",
+                    "id": "120d76ce-a6cc-4d92-b26a-a4af253992a8",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "SecondaryButtonL",
+                    "type": "Button",
+                    "id": "473791ba-8b64-49e9-9e50-0bf227ad7bce",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "TriggerPressR",
+                    "type": "Button",
+                    "id": "68f331ac-8ff0-44aa-9893-61a871279e3e",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "TriggerPressL",
+                    "type": "Button",
+                    "id": "8f8d5d0e-b3de-4769-a173-867aef9f4100",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "7d139385-af30-4838-8027-f171e35dcf1e",
+                    "path": "<PXR_Controller>{RightHand}/primaryButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "PrimaryButtonR",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "ac3352de-6983-4855-9c90-a28bf33090ed",
+                    "path": "<PXR_Controller>{LeftHand}/primaryButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "PrimaryButtonL",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "9791758c-f8d3-4626-889b-6726b53292fc",
+                    "path": "<PXR_Controller>{RightHand}/secondaryButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "SecondaryButtonR",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "2851e980-aba1-411d-ae16-10d3ef9660c3",
+                    "path": "<PXR_Controller>/secondaryButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "SecondaryButtonL",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "522bdc08-cc14-4c63-a75b-da4214986c4d",
+                    "path": "<PXR_Controller>{RightHand}/triggerPressed",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "TriggerPressR",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "67d9fe29-80b7-42d0-ba5c-645dd055dda9",
+                    "path": "<PXR_Controller>{LeftHand}/triggerPressed",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "TriggerPressL",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
